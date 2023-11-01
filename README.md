@@ -5,6 +5,8 @@
 
 # Piggy Metrics
 
+NOTE: For a MicroProfile port of PiggyMetrics please see the branch [openliberty](https://github.com/Azure-Samples/piggymetrics/tree/openliberty).
+
 **A simple way to deal with personal finances**
 
 This is a [proof-of-concept application](https://piggymetrics.tk), which demonstrates [Microservice Architecture Pattern](http://martinfowler.com/microservices/) using Spring Boot, Spring Cloud and Docker.
