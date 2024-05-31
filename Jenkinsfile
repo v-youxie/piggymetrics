@@ -9,6 +9,7 @@ node {
         withCredentials([azureServicePrincipal('azure_service_principal')]) {
           // Log in to Azure
           sh '''
+            az cloud set -n AzureChinaCloud
             az login --service-principal -u $AZURE_CLIENT_ID -p $AZURE_CLIENT_SECRET -t $AZURE_TENANT_ID
             az account set -s $AZURE_SUBSCRIPTION_ID
           '''  
